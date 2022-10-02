@@ -1,6 +1,10 @@
 import React from "react";
 
-function Home() {
+//import username and city variables from user.js filenpm
+import { username, city } from "../data/user";
+
+
+export default function Home() {
   return (
     <div id="home">
       <h1>
